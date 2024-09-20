@@ -1,0 +1,84 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  margin-left: -15px; /* Adjust this value to move the cards left */
+}
+
+.card-container:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.card-id-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-id {
+  color: #666666;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.card-profile {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-color: #b06e0c;
+  color: white;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 0.5rem;
+}
+
+.card-tag {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: #999999;
+}
+
+.card-tag-box {
+  border: 1px solid #cccccc;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.25rem;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+/* Priority Icons */
+.priority-high {
+  content: url('../assets/icons_FEtask/Img\ -\ High\ Priority.svg');
+}
+
+.priority-medium {
+  content: url('../assets/icons_FEtask/Img\ -\ Medium\ Priority.svg');
+}
+
+.priority-low {
+  content: url('../assets/icons_FEtask/Img\ -\ Low\ Priority.svg');
+}
+
+.priority-urgent {
+  content: url('../assets/icons_FEtask/SVG\ -\ Urgent\ Priority\ colour.svg');
+}
